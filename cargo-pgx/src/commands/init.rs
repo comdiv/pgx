@@ -293,7 +293,7 @@ fn make_install_postgres(version: &PgConfig, pgdir: &PathBuf, pgx_dir: &PathBuf)
         // The longest part is over, move the folder into position.
         println!(
             "{} {} with {}",
-            "   Replacing".bold().green(),
+            "    Replacing".bold().green(),
             &pgx_versioned_dir.display(),
             &pgdir.display(),
         );
